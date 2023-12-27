@@ -1,5 +1,5 @@
 
-# README
+# Rails Template 
 
 ### Requirements
 1. Ruby 3.2.2
@@ -20,3 +20,9 @@
 ### Configuration
   `gem install foreman`
   `bin/dev`
+
+### It Includes
+1. APIs
+2. Device
+3. Pagy
+4. PropShaft(media handling)
