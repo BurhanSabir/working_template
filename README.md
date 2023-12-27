@@ -1,26 +1,22 @@
-# working_template
-=======
+
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Requirements
+1. Ruby 3.2.2
+2. Rails 7.0.8
+3. Postgres 14
+4. Node js and Yarn
 
-Things you may want to cover:
 
-* Ruby version
+### Getting started
 
-* System dependencies
-  **Yarn install**
-  
-* Database creation
+1. Clone this repo.
+2. Go to project folder.
+3. Install bundler within `gem install bundler`.
+4. Install dependencies by `bundle install` and then `yarn install`
+5. Create Database and migrate `rails db:create db:migrate`
+6. Start Server `rails s` and visit `http://localhost:3000`
 
-* Configuration
-  gem install foreman
-  bin/dev
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
+### Configuration
+  `gem install foreman`
+  `bin/dev`
